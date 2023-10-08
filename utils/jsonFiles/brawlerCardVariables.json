@@ -1,0 +1,20 @@
+{
+    "brawlerPanelStartingX": 33,
+    "brawlerPanelStartingY": 268,
+    "playerIconStartingX": 33,
+    "playerIconStartingY": 41,
+    "playerIconHeightAndWidth": 183,
+    "fontSize": 71.5,
+    "brawlersUnlockedStartingX": 1271,
+    "brawlersUnlockedStartingY": 65,
+    "brawlersUnlockedEndingX": 1892,
+    "brawlersUnlockedEndingY": 193,
+    "namesStartingX": 236,
+    "playerNameStartingY": 122.5,
+    "clubNameStartingY": 204,
+    "numColumns": 6,
+    "numRows": 5,
+    "cellGap": 10,
+    "brawlerIconCellWidth": 297.5,
+    "brawlerIconCellHeight": 138
+}

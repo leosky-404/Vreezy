@@ -1,0 +1,2 @@
+# Vreezy
+ Vreezy discord bot

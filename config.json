@@ -1,0 +1,117 @@
+{
+	"token": "MTE0NTQxMjcwNzY5MzExNzU1Mw.GtQxFY.1UQmPKk5UcGH6mWV7f3N-EP366_lkgE0JQdM4s",
+	"clientId": "1147911125967589437",
+	"mongoDBUri": "mongodb+srv://vreezyV4:6met5LszkIdtPUTl@vreezy.lgtlf53.mongodb.net/?retryWrites=true&w=majority",
+	"brawlStatsKey": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjcwZWIxZGEzLTI1NDgtNDAwNC1hN2JmLTMwNTJmZDA3ODg3ZiIsImlhdCI6MTY5MzI0MDg4NCwic3ViIjoiZGV2ZWxvcGVyLzRkMDdjMjNiLWQ4ZjUtZTNjNC02NGViLWE0YmVlZmQwOTQxYyIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiNDUuNzkuMjE4Ljc5Il0sInR5cGUiOiJjbGllbnQifV19.nmZaqvxYivHWE1tdmeQRVH2BXqIFpyNKIvGh_5nnuu0kRlvSFXAUbXHM_JESX4zdUtJZlsKKLlP5QeZ1EFqk4w",
+	"webhooks": {
+		"profile": {
+			"id": "1147408242968907806",
+			"token": "s1V5WNtVkY7GgWrI9Yarmx4NYnduPGXkHspCjrLIp0GZMn2dgZU7Y1iMYfUNfRVdvonc"
+		},
+		"error": {
+			"id": "1147954311645634610",
+			"token": "Tzu9magSApJXg35JJup8q46taG4vQi7-2pYqzZTMdz_zH0ZRH1gCp5CJvQfiDGXV6U_a"
+		},
+		"commands": {
+			"id": "1147953217649512508",
+			"token": "uKOCWDt3wOT8h4u2UJLrIgoCzNtVNCXRmtjY0ONozKq_iXT4w1byIIliNWMxSv8akxZE"
+		},
+		"criminalRecords": {
+			"id": "1149291304354861066",
+			"token": "gFDaEu-HXyXgga_ZJxp6DFShX-NWJrq31rauma9rDiH9NtYfMA65wzYldLpTqacGlkRx"
+		}
+	},
+	"developers": ["932226255955320883", "617540642603663360"],
+	"powerLeagueRanks": [
+		{ "name": "Unranked", "value": "0" },
+		{ "name": "Bronze I", "value": "1" },
+		{ "name": "Bronze II", "value": "2" },
+		{ "name": "Bronze III", "value": "3" },
+		{ "name": "Silver I", "value": "4" },
+		{ "name": "Silver II", "value": "5" },
+		{ "name": "Silver III", "value": "6" },
+		{ "name": "Gold I", "value": "7" },
+		{ "name": "Gold II", "value": "8" },
+		{ "name": "Gold III", "value": "9" },
+		{ "name": "Diamond I", "value": "10" },
+		{ "name": "Diamond II", "value": "11" },
+		{ "name": "Diamond III", "value": "12" },
+		{ "name": "Mythic I", "value": "13" },
+		{ "name": "Mythic II", "value": "14" },
+		{ "name": "Mythic III", "value": "15" },
+		{ "name": "Legendary I", "value": "16" },
+		{ "name": "Legendary II", "value": "17" },
+		{ "name": "Legendary III", "value": "18" },
+		{ "name": "Masters", "value": "19" }
+	],
+	"powerLeagueEmojis": [
+		"<:00:1147024363552514178>",
+		"<:01:1147023929806958622><:01:1147023299872833679>",
+		"<:01:1147023929806958622><:02:1147023303366680638>",
+		"<:01:1147023929806958622><:03:1147023309586845737>",
+		"<:02:1147023935129530462><:04:1147023317111418891>",
+		"<:02:1147023935129530462><:05:1147023324891844659>",
+		"<:02:1147023935129530462><:06:1147023330344448071>",
+		"<:03:1147023938417864745><:07:1147023335973204080>",
+		"<:03:1147023938417864745><:ranked_ranks_l_8:1147023340968628334> ",
+		"<:03:1147023938417864745><:09:1147023345720770621>",
+		"<:04:1147023944281493576><:10:1147023353023049759>",
+		"<:04:1147023944281493576><:11:1147023356563046581>",
+		"<:04:1147023944281493576><:12:1147023361310990386>",
+		"<:05:1147023950124175441><:13:1147023365991845998>",
+		"<:05:1147023950124175441><:14:1147023371104694273>",
+		"<:05:1147023950124175441><:15:1147023378578944001>",
+		"<:06:1147023956067504198><:16:1147023383716954176>",
+		"<:06:1147023956067504198><:17:1147023388485890058>",
+		"<:06:1147023956067504198><:18:1147023393309327430>",
+		"<:07:1147023963164258365>"
+	],
+	"powerLeagueRanksFlipped": [
+		19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+	],
+	"allowedModes": [
+		"gemGrab",
+		"brawlBall",
+		"heist",
+		"bounty",
+		"hotZone",
+		"knockout",
+		"siege",
+		"wipeout"
+	],
+	"allowedTypes": ["ranked", "soloRanked"],
+	"blacklistDurations": [
+		{ "name": "30 mins", "value": "30m" },
+		{ "name": "1 hour", "value": "1h" },
+		{ "name": "6 hours", "value": "6h" },
+		{ "name": "12 hours", "value": "12h" },
+		{ "name": "1 day", "value": "1d" },
+		{ "name": "3 days", "value": "3d" },
+		{ "name": "1 week", "value": "1w" },
+		{ "name": "2 weeks", "value": "2w" },
+		{ "name": "1 month", "value": "1M" }
+	],
+	"seasonalTheme": "19",
+	"themes": [
+		{ "name": "Vreezy", "value": "0" },
+		{ "name": "Tara's Bazaar", "value": "1"},
+		{ "name": "Summer of Monsters", "value": "2"},
+		{ "name": "Welcome to Starr Park!", "value": "3"},
+		{ "name": "Holiday Getaway", "value": "4"},
+		{ "name": "The Starr Force!", "value": "5"},
+		{ "name": "The Goldarm Gang", "value": "6"},
+		{ "name": "Jurassic Splash", "value": "7"},
+		{ "name": "Once Upon A Brawl", "value": "8"},
+		{ "name": "Brawlywood", "value": "9"},
+		{ "name": "Year of the Tiger", "value": "10"},
+		{ "name": "Biodome", "value": "11"},
+		{ "name": "Stunt Show", "value": "12"},
+		{ "name": "Deep Sea Brawl", "value": "13"},
+		{ "name": "Robot Factory", "value": "14"},
+		{ "name": "Ghost Station", "value": "15"},
+		{ "name": "Candyland", "value": "16"},
+		{ "name": "Mystery At The Hub", "value": "17"},
+		{ "name": "Rumble Jungle", "value": "18"},
+		{ "name": "Enchanted Woods", "value": "19"}
+	]
+}
