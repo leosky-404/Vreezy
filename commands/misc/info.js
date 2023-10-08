@@ -58,6 +58,7 @@ module.exports = {
 
             await interaction.reply({ embeds: [embed] });
         } catch (error) {
+            console.error(error);
             const errorMessage = error.message ? error.message : 'Unknown error';
             const webhookEmbed = new EmbedBuilder()
                 .setColor('Red')
