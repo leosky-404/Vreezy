@@ -46,7 +46,7 @@ module.exports = {
             const embed = new EmbedBuilder()
                 .setColor(0xCB35F9)
                 .setAuthor({ name: `${botName} Info`, iconURL: botAvatar })
-                addFields(
+                .addFields(
                     { name: '👥 Developers', value: `┕ ${botDevelopers}`, inline: true },
                     { name: '⏳ Uptime', value: `┕ \`${uptime}\``, inline: true },
                     { name: '🏓 Ping', value: `┕ \`${ping} ms\``, inline: true },
@@ -58,6 +58,7 @@ module.exports = {
 
             await interaction.reply({ embeds: [embed] });
         } catch (error) {
+            console.error(error);
             const errorMessage = error.message ? error.message : 'Unknown error';
             const webhookEmbed = new EmbedBuilder()
                 .setColor('Red')
