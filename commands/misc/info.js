@@ -36,7 +36,7 @@ module.exports = {
             const botAvatar = client.user.displayAvatarURL({ dynamic: true });
 
             const botDevelopers = developers.map(id => `<@${id}>`).join(', ');
-            const uptime = formatUptime(interaction.client.uptime);
+            const uptime = formatUptime(client.uptime);
             const ping = client.ws.ping;
             const totalSystemMemory = Math.ceil(require('os').totalmem() / 1024 / 1024 / 1024)
             const memoryUsageRam = (process.memoryUsage().rss + process.memoryUsage().heapTotal) / 1024 / 1024; // RAM usage in MB
