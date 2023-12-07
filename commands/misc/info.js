@@ -3,18 +3,34 @@ const { developers } = require('../../config.json');
 const { version } = require('../../package.json');
 const { errorLogger } = require('../../utils/factory/webhookClient.js');
 
+// /**
+//  * 
+//  * @param {number} uptimeSeconds
+//  * @returns 
+//  */
+// function formatUptime(uptimeSeconds) {
+//     const days = Math.floor(uptimeSeconds / (3600 * 24));
+//     const hours = Math.floor((uptimeSeconds % (3600 * 24)) / 3600);
+//     const minutes = Math.floor((uptimeSeconds % 3600) / 60);
+//     const seconds = Math.floor(uptimeSeconds % 60);
+
+//     const formattedUptime = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+//     return formattedUptime;
+// }
+
 /**
  * 
- * @param {number} uptimeSeconds
+ * @param {number} uptimeMilliseconds
  * @returns 
  */
-function formatUptime(uptimeSeconds) {
-    const days = Math.floor(uptimeSeconds / (3600 * 24));
-    const hours = Math.floor((uptimeSeconds % (3600 * 24)) / 3600);
-    const minutes = Math.floor((uptimeSeconds % 3600) / 60);
-    const seconds = Math.floor(uptimeSeconds % 60);
+function formatUptime(uptimeMilliseconds) {
+    const seconds = Math.floor(uptimeMilliseconds / 1000);
+    const days = Math.floor(seconds / (3600 * 24));
+    const hours = Math.floor((seconds % (3600 * 24)) / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    const remainingSeconds = seconds % 60;
 
-    const formattedUptime = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    const formattedUptime = `${days}d ${hours}h ${minutes}m ${remainingSeconds}s`;
     return formattedUptime;
 }
 
@@ -36,7 +52,7 @@ module.exports = {
             const botAvatar = client.user.displayAvatarURL({ dynamic: true });
 
             const botDevelopers = developers.map(id => `<@${id}>`).join(', ');
-            const uptime = formatUptime(require('os').uptime());
+            const uptime = formatUptime(client.uptime); //formatUptime(require('os').uptime());
             const ping = client.ws.ping;
             const totalSystemMemory = Math.ceil(require('os').totalmem() / 1024 / 1024 / 1024)
             const memoryUsageRam = (process.memoryUsage().rss + process.memoryUsage().heapTotal) / 1024 / 1024; // RAM usage in MB
