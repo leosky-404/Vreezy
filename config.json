@@ -1,24 +1,23 @@
 {
-	"token": "MTE0NTQxMjcwNzY5MzExNzU1Mw.GyJy8z.dFVZ-2dTQLN81RwVbprBI_x7kOvbxUqQHumjtI",
-	"clientId": "1147911125967589437",
-	"mongoDBUri": "mongodb+srv://vreezyV4:6met5LszkIdtPUTl@vreezy.lgtlf53.mongodb.net/?retryWrites=true&w=majority",
-	"brawlStatsKey": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjcwZWIxZGEzLTI1NDgtNDAwNC1hN2JmLTMwNTJmZDA3ODg3ZiIsImlhdCI6MTY5MzI0MDg4NCwic3ViIjoiZGV2ZWxvcGVyLzRkMDdjMjNiLWQ4ZjUtZTNjNC02NGViLWE0YmVlZmQwOTQxYyIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiNDUuNzkuMjE4Ljc5Il0sInR5cGUiOiJjbGllbnQifV19.nmZaqvxYivHWE1tdmeQRVH2BXqIFpyNKIvGh_5nnuu0kRlvSFXAUbXHM_JESX4zdUtJZlsKKLlP5QeZ1EFqk4w",
+	"token": "",
+	"clientId": "",
+	"mongoDBUri": "",
 	"webhooks": {
 		"profile": {
-			"id": "1147408242968907806",
-			"token": "s1V5WNtVkY7GgWrI9Yarmx4NYnduPGXkHspCjrLIp0GZMn2dgZU7Y1iMYfUNfRVdvonc"
+			"id": "",
+			"token": ""
 		},
 		"error": {
-			"id": "1147954311645634610",
-			"token": "Tzu9magSApJXg35JJup8q46taG4vQi7-2pYqzZTMdz_zH0ZRH1gCp5CJvQfiDGXV6U_a"
+			"id": "",
+			"token": ""
 		},
 		"commands": {
-			"id": "1147953217649512508",
-			"token": "uKOCWDt3wOT8h4u2UJLrIgoCzNtVNCXRmtjY0ONozKq_iXT4w1byIIliNWMxSv8akxZE"
+			"id": "",
+			"token": ""
 		},
 		"criminalRecords": {
-			"id": "1149291304354861066",
-			"token": "gFDaEu-HXyXgga_ZJxp6DFShX-NWJrq31rauma9rDiH9NtYfMA65wzYldLpTqacGlkRx"
+			"id": "",
+			"token": ""
 		}
 	},
 	"developers": ["932226255955320883", "617540642603663360"],
